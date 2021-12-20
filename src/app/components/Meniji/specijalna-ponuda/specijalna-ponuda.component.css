@@ -14,7 +14,7 @@ p{
 .ime_artikla{
   padding-left: 10%;
   color: gold;
-  font-size: 15px;
+  font-size: 10px;
 }
 .nazivi{
   width: 70%;
@@ -27,12 +27,17 @@ p{
 .art-1{
   display: flex;
   flex-direction: row;
-
+  max-height: 33px;
+}
+.art-1 .cij{
+  height: 15%;
+  max-height: 33px !important;
 }
 .cijene{
   width: 30%;
   display: flex;
   flex-direction: column;
+  max-height: 33px;
 }
 .meni{
   display: flex;
@@ -62,8 +67,25 @@ p{
   position: relative;
 }
 .cijena_artikla{
-  font-size: 15px;
+  font-size: 10px;
 }
 
+@media only screen and (max-width: 159px) {
+  .ime_artikla, .cijena_artikla {
+    font-size: 8px;
+    height: 33px;
+    padding: 0;
+    margin: 0;
+  }
+  .ime_artikla{
+    padding-left: 10%;
+  }
+  h2{
+    font-size: 15px;
+  }
+  .back-button{
+    font-size: 10px;
+  }
+}
 
 

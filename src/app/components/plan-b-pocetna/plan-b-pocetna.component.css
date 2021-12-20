@@ -1,11 +1,12 @@
 .content{
   background-image: url("src/assets/Slike/pozadina.jpg");
-  min-height: 100%;
+  min-height: 100%!important;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   font-family: Roboto, Serif;
+  min-width: 159px;
 }
 .izbornik{
   display: flex;

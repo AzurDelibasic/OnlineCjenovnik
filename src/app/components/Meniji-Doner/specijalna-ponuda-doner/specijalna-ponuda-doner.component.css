@@ -1,12 +1,11 @@
 .content{
   min-height: 90%;
-  background-color: #2B5A2C;
+  background-color: black;
   font-family: Roboto, Serif;
 }
 h2{
-  color: white;
-  text-align: center;
   color: gold;
+  text-align: center;
 }
 p{
   color: white;
@@ -15,6 +14,7 @@ p{
 .ime_artikla{
   padding-left: 10%;
   color: gold;
+  font-size: 10px;
 }
 .nazivi{
   width: 70%;
@@ -27,12 +27,17 @@ p{
 .art-1{
   display: flex;
   flex-direction: row;
-
+  max-height: 33px;
+}
+.art-1 .cij{
+  height: 15%;
+  max-height: 33px !important;
 }
 .cijene{
   width: 30%;
   display: flex;
   flex-direction: column;
+  max-height: 33px;
 }
 .meni{
   display: flex;
@@ -58,8 +63,11 @@ p{
 .content-header{
   height: 10%;
   width: 100%;
-  background-color: #2B5A2C;
+  background-color: #070707;
   position: relative;
+}
+.cijena_artikla{
+  font-size: 10px;
 }
 
 
