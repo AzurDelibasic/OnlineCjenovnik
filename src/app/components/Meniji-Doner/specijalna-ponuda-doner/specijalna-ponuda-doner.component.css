@@ -1,6 +1,6 @@
 .content{
   min-height: 90%;
-  background-color: black;
+  background-color: #2B5A2C;
   font-family: Roboto, Serif;
 }
 h2{
@@ -9,7 +9,6 @@ h2{
 }
 p{
   color: white;
-  font-size: 20px;
 }
 .ime_artikla{
   padding-left: 10%;
@@ -18,11 +17,6 @@ p{
 }
 .nazivi{
   width: 70%;
-}
-.doza{
-  padding-left: 5%;
-  font-size: 15px;
-  padding-top: 4%;
 }
 .art-1{
   display: flex;
@@ -63,12 +57,42 @@ p{
 .content-header{
   height: 10%;
   width: 100%;
-  background-color: #070707;
+  background-color: #2B5A2C;
   position: relative;
 }
 .cijena_artikla{
   font-size: 10px;
 }
+.prilozi{
+  text-align: center;
+  font-size: 15px;
+  background-color: #bb1c2a;
+  width: 70%;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5%;
+}
+@media only screen and (max-width: 205px) {
+  .ime_artikla, .cijena_artikla {
+    font-size: 8px;
+    height: 33px;
+    padding: 0;
+    margin: 0;
+  }
+  .ime_artikla{
+    padding-left: 10%;
+  }
+  h2{
+    font-size: 15px;
+  }
+  .back-button{
+    font-size: 10px;
+  }
+
+}
+
+
 
 
 

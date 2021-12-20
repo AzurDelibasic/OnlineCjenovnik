@@ -70,7 +70,7 @@ p{
   font-size: 10px;
 }
 
-@media only screen and (max-width: 159px) {
+@media only screen and (max-width: 205px) {
   .ime_artikla, .cijena_artikla {
     font-size: 8px;
     height: 33px;

@@ -34,6 +34,7 @@ button:hover{
 h2{
   color: white;
   text-align: center;
+  padding: 3% 0 3% 0;
 }
 .back-button{
   background-color: transparent;
@@ -57,5 +58,12 @@ h2{
   width: 100%;
   background-color: #070707;
   position: relative;
+}
+.narudzba{
+  background-color: #2B5A2C;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
 }
 

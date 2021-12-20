@@ -4,33 +4,34 @@
   font-family: Roboto, Serif;
 }
 h2{
-  color: white;
+  color: #baf123;
   text-align: center;
 }
 p{
   color: white;
-  font-size: 20px;
 }
 .ime_artikla{
   padding-left: 10%;
+  color: #baf123;
+  font-size: 10px;
 }
 .nazivi{
   width: 70%;
 }
-.doza{
-  padding-left: 5%;
-  font-size: 15px;
-  padding-top: 4%;
-}
 .art-1{
   display: flex;
   flex-direction: row;
-
+  max-height: 33px;
+}
+.art-1 .cij{
+  height: 15%;
+  max-height: 33px !important;
 }
 .cijene{
   width: 30%;
   display: flex;
   flex-direction: column;
+  max-height: 33px;
 }
 .meni{
   display: flex;
@@ -59,10 +60,38 @@ p{
   background-color: #2B5A2C;
   position: relative;
 }
+.cijena_artikla{
+  font-size: 10px;
+}
 .prilozi{
   text-align: center;
-  padding-bottom: 6%;
+  font-size: 15px;
+  background-color: #bb1c2a;
+  width: 70%;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5%;
 }
+@media only screen and (max-width: 205px) {
+  .ime_artikla, .cijena_artikla {
+    font-size: 8px;
+    height: 33px;
+    padding: 0;
+    margin: 0;
+  }
+  .ime_artikla{
+    padding-left: 10%;
+  }
+  h2{
+    font-size: 15px;
+  }
+  .back-button{
+    font-size: 10px;
+  }
+
+}
+
 
 
 
