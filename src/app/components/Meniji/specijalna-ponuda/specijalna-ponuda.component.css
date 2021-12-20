@@ -12,7 +12,12 @@ p{
   font-size: 20px;
 }
 .ime_artikla{
-  padding-left: 10%;
+  padding-left: 15%;
+  color: gold;
+  font-size: 10px;
+}
+.ime_artiklaa{
+  padding-left: 15%;
   color: gold;
   font-size: 10px;
 }
