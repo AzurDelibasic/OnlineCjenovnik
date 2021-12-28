@@ -31,7 +31,7 @@ import {
 } from "./components/Meniji-Doner/specijalna-ponuda-doner/specijalna-ponuda-doner.component";
 
 const routes: Routes = [
-  {path: 'pocetna', component: PocetnaStranicaComponent},
+  {path: 'pocetna-pjk', component: PocetnaStranicaComponent},
   {path: 'plan-b', component: PlanBPocetnaComponent},
   {path: 'doner-joker', component: DonerPocetnaComponent},
   {path: 'kafana-jedno-mjesto', component: KafanaPocetnaComponent},
@@ -56,7 +56,7 @@ const routes: Routes = [
   {path: 'doner-joker/hrana', component: HranaComponent},
   {path: 'doner-joker/pice', component: PiceComponent},
   {path: 'doner-joker/specijalna-ponuda-doner', component: SpecijalnaPonudaDonerComponent},
-  {path: '', redirectTo:'pocetna', pathMatch: 'full'}
+  {path: '', redirectTo:'pocetna-pjk', pathMatch: 'full'}
 ];
 
 @NgModule({
